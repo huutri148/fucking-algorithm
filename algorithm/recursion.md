@@ -1,7 +1,7 @@
 # Recursion
 
 
-**What is recursion?**
+## 1.What is recursion?
 The process in which a function calls inself directly or indirectlty is called
 recurion and corresponding function is called as recursive function.Using
 recursive algorithm, certain problems can be solved quite easily. Ex: Towers of
@@ -22,7 +22,7 @@ but there is another mathematical approach of representing this,
 The **approach(2)** the function **f()** itself is being called inside the function
 
 
-**What is the base condition in recursion **
+## 2.What is the base condition in recursion 
 
 The solution to the base case is provided and the solution of the problem is expressed
 in terms of smaller problems
@@ -40,7 +40,7 @@ int fact (int n )
 if **Stack Overflow** error occurs in recursion, it happens because **the base case** is 
 not reached or not defined.
 
-** What is the difference between direct and indirect recursion? **
+## 3.What is the difference between direct and indirect recursion? 
 
 A function fun is called direct recursive if it calls the same fun fun. A function
 fun is called indirect recursive if it calls another function say fun_new and fun_new 
@@ -73,13 +73,13 @@ void indirectRecFun2()
     // Some code...
 }
 ```
-** What is difference between tailed and not-tailed recursion ? **
+## 4.What is difference between tailed and not-tailed recursion ? 
 
 A recursive function is tail recursive when recursive call is the las thing executed 
 by the function. 
 
 
-** What are the disadvantages of recursive programming over iterative programming**
+## 5.What are the disadvantages of recursive programming over iterative programming
 
 Note that both recursive and iterative programs have the same problem-solving
 powers,.. every recursive program can be written iteratively and vice versa is 
@@ -87,7 +87,7 @@ also true. The recursive program has greate space requirements than iterative
 programs as all functions will remain in the stack until the case is reached.
 It also has greater time requirements because of function calls and returns overhead.
 
-** What are the advantages of recursive programming over iterative programming**
+## 6.What are the advantages of recursive programming over iterative programming
 
 Recursion provides a clean and simple way to write code. Some problems are inherently
 recursive like tree traversals, TOH, etc. We can write such codes also iteratively with the 
